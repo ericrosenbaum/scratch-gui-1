@@ -25,6 +25,9 @@ import pigpioInsetIconURL from './pigpio/pigpio-small.svg';
 import pisensehatIconURL from './pisensehat/pisensehat.png';
 import pisensehatInsetIconURL from './pisensehat/pisensehat-small.svg';
 
+import pivsgpioIconURL from './pivsgpio/pivsgpio.png';
+import pivsgpioInsetIconURL from './pivsgpio/pivsgpio-small.svg';
+
 import microbitIconURL from './microbit/microbit.png';
 import microbitInsetIconURL from './microbit/microbit-small.svg';
 import microbitConnectionIconURL from './microbit/microbit-illustration.svg';
@@ -198,6 +201,21 @@ export default [
                 defaultMessage="Control Raspberry Pi Sense HAT"
                 description="Description for the 'Pi Sense HAT' extension"
                 id="gui.extension.pisensehat.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: 'Raspberry Pi Simple Electronics',
+        extensionId: 'pivsgpio',
+        collaborator: 'Raspberry Pi',
+        iconURL: pivsgpioIconURL,
+        insetIconURL: pivsgpioInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Simple electronics with Raspberry Pi"
+                description="Description for the 'Pi Simple Electronics' extension"
+                id="gui.extension.pivsgpio.description"
             />
         ),
         featured: true
