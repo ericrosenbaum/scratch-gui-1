@@ -219,6 +219,7 @@ export default [
             />
         ),
         featured: true
+/*
     },
     {
         name: 'micro:bit',
@@ -371,5 +372,6 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+*/
     }
 ];
