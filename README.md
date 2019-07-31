@@ -69,11 +69,11 @@ In ~/scratch-desktop/node_modules/scratch-gui
 
 git checkout scratch-desktop
 
+cp -r ~/scratch-gui/src/lib/libraries/extensions/* src/lib/libraries/extensions/
+
 In package.json, in the "devDependencies" section, remove the line starting “chromedriver”
 
 npm install
-
-cp -r ~/scratch-gui/src/lib/libraries/extensions/* src/lib/libraries/extensions/
 
 
 In ~/scratch-desktop/node_modules/scratch-gui/node_modules/scratch-blocks
