@@ -83,9 +83,9 @@ In ~/scratch-desktop/node_modules/scratch-gui/node_modules/scratch-blocks
 
 [cp ~/scratch-gui/node_modules/scratch-blocks/core/* core/]
 
-In package.json, in the "devDependencies" section, remove the line starting “chromedriver”
+[In package.json, in the "devDependencies" section, remove the line starting “chromedriver”]
 
-npm install (ignore errors at end)
+[npm install (ignore errors at end)]
 
 
 In ~/scratch-desktop/node_modules/scratch-gui/node_modules/scratch-vm
