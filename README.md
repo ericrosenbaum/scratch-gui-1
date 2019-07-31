@@ -47,9 +47,13 @@ In ~/scratch-desktop
 npm install
 
 In node_modules/app-builder-lib/out/targets/targetFactory.js, in the function "computeArchToTargetNamesMap", change the line
+
     const defaultArchs...
+    
 to
+
     const defaultArchs = [“armv7l”];
+    
     
 
 In ~/scratch-desktop/node_modules
